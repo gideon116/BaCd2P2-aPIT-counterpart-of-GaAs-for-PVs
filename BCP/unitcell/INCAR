@@ -1,0 +1,46 @@
+# algorithm
+ALGO  =  Normal
+
+# accuracy
+PREC   =  Accurate
+LREAL  =  False
+EDIFF  =  1e-07
+ENCUT  =  400
+LASPH  =  True
+NELM   =  100
+
+# ionic relaxation
+ISIF    =  3
+IBRION  =  2
+EDIFFG  =  -0.005
+NSW     =  100
+
+# occupation
+ISMEAR  =  -5
+SIGMA   =  0.01
+
+# IO control
+LWAVE   =  True
+LCHARG  =  True
+
+# analyzer
+LORBIT  =  11
+
+# dft parameter
+GGA  =  Pe
+
+# parallel
+AEXX = 0.25
+HFSCREEN = 0.2
+LHFCALC = True
+
+# GGA = Pe
+ICHARG = 2
+ISTART = 0
+ISYM = 0
+LAECHG = False
+LMAXMIX = 4
+LVHAR = True
+LVTOT = False
+MAGMOM = 5*0.6 
+PRECFOCK = Fast
